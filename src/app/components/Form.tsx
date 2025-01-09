@@ -46,7 +46,7 @@ function Form() {
         alert("Form submitted successfully!");
         setTimeout(() => setShowConfetti(false), 5000); // Hide confetti after 5 seconds
       }
-    } catch (error) {
+    } catch  {
       alert("Submitting form failed!");
     }
   };
